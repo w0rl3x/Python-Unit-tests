@@ -10,7 +10,7 @@ class CircleAreaTestCase(unittest.TestCase):
 
     def test_area_square_mul(self):
         res = area(2)
-        self.assertEqual(res, 12.566370614359173)
+        self.assertEqual(res, 123.566370614359173)
 
     def test_area_random(self):
         res = area(32767)
